@@ -8,53 +8,39 @@ body {
     clear: both;
 }
 
-#Heading {
+#masthead {
     font-family: 'sans-serif', Times, Times New Roman, serif;
     background-color: #ffffff;
     border-color: #cccccc;
     color: #777777;
-    height: 100px;
     width: 100%;
-    float: left;
     clear: both;
+}
+
+.navbar-brand {
+    font: 'sans-serif', Helvetica Neue, Helvetica;
+    color: #4aaaa5
 }
 
 /* ////// ABOUT ME PAGE \\\\\\ */
 
-#Name {
-    background-color: #4aaaa5;
-    float: left;
-    color: #ffffff;
-    width: 260px;
-    padding: 10px;
-    z-index: 2;
-}
+.container {
+    margin: 25px;
+    color:#4aaaa5;
+    background-color:white; 
+    border:5px; 
+    border-color: #4aaa4a;
+    height:550px;
+    font-family: "sans-serif", Georgia, 'Times New Roman', Times, serif;
+}    
 
-
-#AboutMe {
-    background-color: #ffffff;
-    border: 2px solid #dddddd;
-    padding: 30px;
-    margin: 40px;
-    margin-left: 100px;
-    margin-right: 150px;
-    width: 960px;
-    height: 60%;
-    float: right;
-    Font: 'sans-serif', Helvetica Neue, Helvetica;
-    z-index: 1
-}
-
-#AboutMe h2 {
+h2 {
     color: #4aaaa5;
     font: 'sans-serif', Helvetica Neue, Helvetica;
     font-size: 180%;
+    padding: 25px;
 }
 
-aside {
-    padding: 25px;
-    float: left;
-}
 
 p {
     font: 'sans-serif', 'Helvetica Neue', Helvetica;
@@ -69,20 +55,33 @@ section {
     color: #dddddd;
 }
 
+
+
 /* ////// CONTACT PAGE \\\\\\ */
 
-#Contact {
+.ContactContainer {
+    margin: 25px;
+    padding: 50px;
+    color:#4aaaa5;
+    background-color:white; 
+    border:5px; 
+    border-color: #4aaa4a;
+    height:1050px;
+    font-family: "sans-serif", Georgia, 'Times New Roman', Times, serif;
+}    
+
+.btn {
+    margin-left: 25px;
+}
+
+.form-group {
     background-color: #ffffff;
     border: 2px solid #dddddd;
-    padding: 30px;
+    padding: 50px;
     margin: 40px;
     margin-left: 150px;
     margin-right: 150px;
-    width: 960px;
-    height: 450px;
-    float: right;
     Font: 'sans-serif', Helvetica Neue, Helvetica;
-    z-index: 1
 }
 
 .ContactInfo {
@@ -96,43 +95,7 @@ section {
 
 /* ////// PORTFOLIO PAGE \\\\\\ */
 
-#Portfolio {
-    background-color: #ffffff;
-    border: 2px solid #dddddd;
-    padding: 30px;
-    margin: 40px;
-    margin-left: 150px;
-    margin-right: 150px;
-    width: 960px;
-    height: 450px;
-    float: right;
-    Font: 'Arial', Helvetica Neue, Helvetica, sans-serif;
-    z-index: 1
-}
 
-.Box-1, .Box-2 {
-    padding: 30px;
-    margin: 40px;
-    width: 100px;
-    height: 100px;
-    float: left;
-    font: 'Arial', Helvetica Neue, Helvetica, sans-serif;
-}
-
-.Box-1-Text, .Box-2-Text {
-    font-family: Arial, Helvetica, sans-serif;
-    height: 40px;
-    width: 100px;
-    color: #dddddd;
-    background-color: #4aaaa5;
-    float: left;
-}
-
-#Box-1-Pic, #Box-2-Pic {
-    height: 100%;
-    width: 100%; 
-    float: left;
-}
 
 /* //////GENERAL FOOTER\\\\\\ */
 .footercontent {
